@@ -1874,3 +1874,304 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.09.24-03.30.14:237][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2025.09.24-03.30.14:257][896]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
 [2025.09.24-03.30.14:257][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-03.34.36:839][129]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.34.38:596][333]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2025.09.24-03.34.38:601][333]LogContentBundle: [ThirdPersonMap(독립형)] Generating Streaming for 0 Content Bundles.
+[2025.09.24-03.34.38:601][333]LogWorldPartition: Display: GenerateStreaming started...
+[2025.09.24-03.34.38:601][333]LogWorldPartition: Display: GetPartitionedActors started...
+[2025.09.24-03.34.38:601][333]LogWorldPartition: Display: GetPartitionedActors took 6 us (total: 36 us)
+[2025.09.24-03.34.38:602][333]LogWorldPartition: Display: GenerateStreaming took 113 us (total: 642 us)
+[2025.09.24-03.34.38:602][333]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.24-03.34.38:602][333]PIE: New page: PIE 세션: ThirdPersonMap (2025. 9. 24. 오후 9:34:38)
+[2025.09.24-03.34.38:602][333]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.09.24-03.34.38:605][333]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003036s)
+[2025.09.24-03.34.38:605][333]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003059s)
+[2025.09.24-03.34.38:605][333]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-03.34.38:605][333]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.09.24-03.34.38:605][333]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2025.09.24-03.34.38:606][333]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.09.24-03.34.38:606][333]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.24-03.34.38:606][333]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2025.09.24-03.34.38:606][333]LogContentBundle: [ThirdPersonMap(독립형)] Creating new contrainer.
+[2025.09.24-03.34.38:606][333]LogWorldPartition: Display: WorldPartition initialize took 703 us (total: 277 ms)
+[2025.09.24-03.34.38:606][333]LogPlayLevel: PIE: World Init took: (0.001589s)
+[2025.09.24-03.34.38:630][333]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.09.24-03.34.38:633][333]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.09.24-03.34.38:633][333]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.24-03.34.38:633][333]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.24-03.34.38:633][333]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.24-03.34.38:633][333]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.24-03.34.38:633][333]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.24-03.34.38:633][333]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2025.09.24-03.34.38:633][333]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.24-03.34.38:633][333]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.24-03.34.38:633][333]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.24-03.34.38:634][333]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.24-03.34.38:634][333]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.24-03.34.38:636][333]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.24-03.34.38:650][333]LogAudioMixer: Display: Using Audio Hardware Device Odyssey G5(NVIDIA High Definition Audio)
+[2025.09.24-03.34.38:650][333]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.24-03.34.38:650][333]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.24-03.34.38:650][333]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.24-03.34.38:651][333]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.09.24-03.34.38:651][333]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.09.24-03.34.38:653][333]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.09.24-03.34.38:653][333]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.09.24-03.34.38:653][333]LogInit: FAudioDevice initialized with ID 7.
+[2025.09.24-03.34.38:653][333]LogAudio: Display: Audio Device (ID: 7) registered with world 'ThirdPersonMap'.
+[2025.09.24-03.34.38:653][333]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.09.24-03.34.38:655][333]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.09.24-03.34.38:656][333]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.09.24-12.34.38
+[2025.09.24-03.34.38:657][333]LogWorld: Bringing up level for play took: 0.001109
+[2025.09.24-03.34.38:658][333]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2025.09.24-03.34.38:660][333]PIE: 서버가 로그인했습니다.
+[2025.09.24-03.34.38:661][333]PIE: 에디터에서 플레이 총 시작 시간 0.06초입니다.
+[2025.09.24-03.34.38:678][333]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.34.38:679][333]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.34.38:679][333]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.34.38:679][333]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.34.38:679][333]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.34.38:680][333]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.34.38:680][333]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.34.38:680][333]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.34.38:680][333]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.34.38:680][333]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.34.38:681][333]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.34.38:681][333]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.34.38:688][334]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.34.38:689][334]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.34.38:689][334]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.34.38:689][334]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.34.38:689][334]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.34.38:690][334]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.34.38:690][334]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.34.38:690][334]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.34.38:690][334]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.34.38:690][334]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.34.38:691][334]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.34.38:691][334]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.34.39:399][415]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-03.35.29:770][458]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-03.35.29:986][484]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-03.35.30:228][513]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-03.36.06:082][814]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-03.36.06:307][841]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-03.36.06:507][865]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-03.36.06:707][889]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-03.36.06:924][915]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-03.36.07:141][941]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-03.36.07:349][966]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-03.36.07:591][995]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-03.36.08:174][ 65]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-03.36.08:749][134]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-03.36.08:974][161]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-03.36.09:182][186]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-03.36.09:365][208]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-03.36.09:574][233]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-03.36.09:773][257]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-03.36.09:966][280]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-03.36.13:716][730]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-03.36.13:949][758]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-03.36.14:249][794]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-03.36.36:773][297]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.24-03.36.36:773][297]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.09.24-03.36.36:773][297]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-03.36.36:773][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-03.36.36:773][297]LogContentBundle: [ThirdPersonMap(독립형)] Deleting container.
+[2025.09.24-03.36.36:777][297]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.24-03.36.36:779][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-03.36.36:797][297]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.24-03.36.36:797][297]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.09.24-03.36.36:797][297]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.09.24-03.36.36:799][297]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.09.24-03.36.36:805][297]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.09.24-03.36.36:820][297]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.36.36:842][298]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-03.36.36:856][299]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2025.09.24-03.36.48:307][659]LogSlateStyle: Warning: 'CoreStyle' 스타일의 리소스 누락: ''ContentBrowser.ListViewFolderIcon.Base' 브러시를 찾을 수 없습니다.'
+[2025.09.24-03.36.48:307][659]LogSlateStyle: Warning: 'CoreStyle' 스타일의 리소스 누락: ''ContentBrowser.ListViewFolderIcon.Mask' 브러시를 찾을 수 없습니다.'
+[2025.09.24-03.37.42:887][515]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.09.24-03.37.42:892][515]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.022
+[2025.09.24-03.37.42:893][515]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.09.24-03.37.42:893][515]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-03.37.42:979][515]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C]
+[2025.09.24-03.37.42:999][515]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.09.24-03.37.42:999][515]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.09.24-03.37.43:009][515]LogPackageLocalizationCache: Processed 44 localized package path(s) for 1 prioritized culture(s) in 0.009243 seconds
+[2025.09.24-03.37.43:015][515]LogSerialization: UsePackageTrailer: 'true'
+[2025.09.24-03.37.43:020][515]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto1
+[2025.09.24-03.37.43:020][515]LogSavePackage: Moving '../../../../../../Users/user/Documents/GitHub/ADR_Seoul/ADR/Saved/BP_ThirdPersonCharacter_Auto1313592E241256B63FBF92799F08566F9.tmp' to '../../../../../../Users/user/Documents/GitHub/ADR_Seoul/ADR/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto1.uasset'
+[2025.09.24-03.37.43:021][515]LogFileHelpers: Auto-saving content packages took 0.129
+[2025.09.24-03.43.09:820][726]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/SciFiCharacter/Animations/Aim_Space_Hip.Aim_Space_Hip
+[2025.09.24-03.43.09:824][726]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/SciFiCharacter/Animations/Aim_Space_Hip.Aim_Space_Hip
+[2025.09.24-03.43.09:824][726]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-03.43.09:825][726]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.09.24-03.43.09:831][726]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.24-03.43.09:855][726]LogAnimationCompression: Display: Storing compressed animation data for /Game/SciFiCharacter/Animations/Aim_Space_Hip.Aim_Space_Hip, at AnimationSequence/15505c71e360da56bfc24aa55b58d66f017f8ace
+[2025.09.24-03.43.09:938][726]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-03.43.09:939][726]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.09.24-03.43.09:994][726]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-03.43.09:994][726]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.09.24-03.43.10:008][726]LogViewport: Scene viewport resized to 982x451, mode Windowed.
+[2025.09.24-03.43.10:017][726]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2025.09.24-03.43.20:421][651]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/SciFiCharacter/Animations/Aim_Space_Ironsights.Aim_Space_Ironsights
+[2025.09.24-03.43.20:426][651]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/SciFiCharacter/Animations/Aim_Space_Ironsights.Aim_Space_Ironsights
+[2025.09.24-03.43.20:452][651]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-03.43.20:452][651]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.09.24-03.43.20:462][651]LogAnimationCompression: Display: Storing compressed animation data for /Game/SciFiCharacter/Animations/Aim_Space_Ironsights.Aim_Space_Ironsights, at AnimationSequence/bfedf7be7b16bb4b7944244a1061cc79165b77b5
+[2025.09.24-03.43.20:462][651]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-03.43.20:462][651]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-03.43.24:436][982]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/SciFiCharacter/Animations/Aim_Space_Hip.Aim_Space_Hip
+[2025.09.24-03.43.24:462][982]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-03.43.24:462][982]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.09.24-03.43.24:470][982]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-03.43.24:470][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-03.43.31:669][589]LogSlate: Window 'Aim_Space_Hip' being destroyed
+[2025.09.24-03.43.31:673][589]LogSlate: Window 'Aim_Space_Hip' being destroyed
+[2025.09.24-03.43.31:679][589]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-03.43.31:679][589]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-03.43.31:685][589]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-03.43.31:685][589]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-03.43.31:704][589]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-03.43.31:704][589]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-03.43.33:365][784]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/SciFiCharacter/Animations/Aim_Space_Hip.Aim_Space_Hip
+[2025.09.24-03.43.33:365][784]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-03.43.33:365][784]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.09.24-03.43.33:376][784]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_48:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.24-03.43.33:477][784]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-03.43.33:477][784]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.09.24-03.43.33:529][784]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-03.43.33:529][784]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.09.24-03.43.33:539][784]LogViewport: Scene viewport resized to 982x451, mode Windowed.
+[2025.09.24-03.43.33:549][784]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2025.09.24-03.43.41:584][461]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-03.43.41:584][461]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.09.24-03.43.41:588][461]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-03.43.41:588][461]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.09.24-03.43.41:592][461]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_52:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.24-03.43.41:690][461]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-03.43.41:690][461]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.09.24-03.43.41:746][461]LogViewport: Scene viewport resized to 409x339, mode Windowed.
+[2025.09.24-03.43.51:150][358]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-03.43.51:150][358]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-03.43.51:155][358]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-03.43.51:155][358]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-03.43.51:175][358]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-03.43.51:175][358]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-03.43.51:192][358]LogViewport: Scene viewport resized to 409x359, mode Windowed.
+[2025.09.24-03.43.51:216][359]LogViewport: Scene viewport resized to 409x354, mode Windowed.
+[2025.09.24-03.43.51:234][360]LogViewport: Scene viewport resized to 409x350, mode Windowed.
+[2025.09.24-03.43.51:251][361]LogViewport: Scene viewport resized to 409x346, mode Windowed.
+[2025.09.24-03.43.51:269][362]LogViewport: Scene viewport resized to 409x343, mode Windowed.
+[2025.09.24-03.43.51:287][363]LogViewport: Scene viewport resized to 409x340, mode Windowed.
+[2025.09.24-03.43.51:305][364]LogViewport: Scene viewport resized to 409x339, mode Windowed.
+[2025.09.24-03.44.17:047][583]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Program Files/Epic Games/UE_5.2/Engine/Source/Runtime/Engine/Classes/Animation/AnimInstance.h'.
+[2025.09.24-03.44.17:081][583]LogVSAccessor: Warning: Couldn't goto column number '1' of line '1' in 'C:/Program Files/Epic Games/UE_5.2/Engine/Source/Runtime/Engine/Classes/Animation/AnimInstance.h'.
+[2025.09.24-03.44.17:097][584]LogAutomationController: Ignoring very large delta of 2.60 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.24-03.44.23:274][181]LogSlate: Window 'UE4_Mannequin_Skeleton_AnimBlueprint1' being destroyed
+[2025.09.24-03.44.23:276][181]LogSlate: Window 'UE4_Mannequin_Skeleton_AnimBlueprint1' being destroyed
+[2025.09.24-03.44.23:283][181]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-03.44.23:283][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-03.44.23:287][181]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-03.44.23:287][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-03.44.23:308][181]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-03.44.23:308][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-03.44.26:387][535]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/SciFiCharacter/Animations/Idle_Rifle_Hip.Idle_Rifle_Hip
+[2025.09.24-03.44.26:387][535]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-03.44.26:387][535]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.09.24-03.44.26:395][535]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_54:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.24-03.44.26:499][535]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-03.44.26:499][535]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.09.24-03.44.26:554][535]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-03.44.26:554][535]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.09.24-03.44.26:565][535]LogViewport: Scene viewport resized to 982x451, mode Windowed.
+[2025.09.24-03.44.26:575][535]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2025.09.24-03.44.28:880][723]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-03.44.28:880][723]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.09.24-03.44.28:884][723]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-03.44.28:884][723]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.09.24-03.44.28:888][723]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_58:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.24-03.44.28:985][723]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-03.44.28:985][723]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.09.24-03.44.29:041][723]LogViewport: Scene viewport resized to 409x339, mode Windowed.
+[2025.09.24-03.44.39:602][748]LogSlate: Window 'UE4_Mannequin_Skeleton_AnimBlueprint2' being destroyed
+[2025.09.24-03.44.39:605][748]LogSlate: Window 'UE4_Mannequin_Skeleton_AnimBlueprint2' being destroyed
+[2025.09.24-03.44.39:611][748]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-03.44.39:611][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-03.44.39:618][748]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-03.44.39:618][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-03.44.39:638][748]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-03.44.39:638][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-03.44.39:648][748]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-03.44.39:648][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-03.44.39:652][748]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-03.44.39:652][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-03.44.39:672][748]LogWorld: UWorld::CleanupWorld for World_59, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-03.44.39:672][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-03.44.52:694][277]LogSlate: Took 0.000895 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2025.09.24-03.44.59:884][124]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-03.44.59:910][125]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-03.44.59:915][125]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-03.45.05:466][781]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/SciFiCharacter/Meshes/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint
+[2025.09.24-03.45.05:466][781]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-03.45.05:466][781]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.09.24-03.45.05:474][781]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-03.45.05:474][781]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.09.24-03.45.05:480][781]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_64:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.24-03.45.05:602][781]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-03.45.05:602][781]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.09.24-03.45.05:653][781]LogViewport: Scene viewport resized to 409x339, mode Windowed.
+[2025.09.24-03.45.05:667][781]LogSlateStyle: Warning: 'CoreStyle' 스타일의 리소스 누락: ''Graph.Node.Comment.TextColor' 컬러를 찾을 수 없습니다.'
+[2025.09.24-03.47.43:359][876]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.09.24-03.47.43:361][876]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.026
+[2025.09.24-03.47.43:361][876]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/SciFiCharacter/Meshes/UE4_Mannequin_Skeleton_AnimBlueprint] ([2] browsable assets)...
+[2025.09.24-03.47.43:409][876]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/SciFiCharacter/Meshes/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint]
+[2025.09.24-03.47.43:409][876]OBJ SavePackage: Finished generating thumbnails for package [/Game/SciFiCharacter/Meshes/UE4_Mannequin_Skeleton_AnimBlueprint]
+[2025.09.24-03.47.43:415][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SciFiCharacter/Meshes/UE4_Mannequin_Skeleton_AnimBlueprint_Auto2
+[2025.09.24-03.47.43:415][876]LogSavePackage: Moving '../../../../../../Users/user/Documents/GitHub/ADR_Seoul/ADR/Saved/UE4_Mannequin_Skeleton_AnimBluep6A2D0E1D4DCE470C2C9D7C9C44E9D444.tmp' to '../../../../../../Users/user/Documents/GitHub/ADR_Seoul/ADR/Saved/Autosaves/Game/SciFiCharacter/Meshes/UE4_Mannequin_Skeleton_AnimBlueprint_Auto2.uasset'
+[2025.09.24-03.47.43:416][876]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/SciFiCharacter/Meshes/UE4_Mannequin_Skeleton_AnimBlueprint2] ([2] browsable assets)...
+[2025.09.24-03.47.43:430][876]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/SciFiCharacter/Meshes/UE4_Mannequin_Skeleton_AnimBlueprint2.UE4_Mannequin_Skeleton_AnimBlueprint2]
+[2025.09.24-03.47.43:430][876]OBJ SavePackage: Finished generating thumbnails for package [/Game/SciFiCharacter/Meshes/UE4_Mannequin_Skeleton_AnimBlueprint2]
+[2025.09.24-03.47.43:434][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SciFiCharacter/Meshes/UE4_Mannequin_Skeleton_AnimBlueprint2_Auto2
+[2025.09.24-03.47.43:434][876]LogSavePackage: Moving '../../../../../../Users/user/Documents/GitHub/ADR_Seoul/ADR/Saved/UE4_Mannequin_Skeleton_AnimBluep6ECE0526464EFD84339EFBA28C6CBDEB.tmp' to '../../../../../../Users/user/Documents/GitHub/ADR_Seoul/ADR/Saved/Autosaves/Game/SciFiCharacter/Meshes/UE4_Mannequin_Skeleton_AnimBlueprint2_Auto2.uasset'
+[2025.09.24-03.47.43:435][876]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/SciFiCharacter/Meshes/UE4_Mannequin_Skeleton_AnimBlueprint1] ([2] browsable assets)...
+[2025.09.24-03.47.43:449][876]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/SciFiCharacter/Meshes/UE4_Mannequin_Skeleton_AnimBlueprint1.UE4_Mannequin_Skeleton_AnimBlueprint1]
+[2025.09.24-03.47.43:449][876]OBJ SavePackage: Finished generating thumbnails for package [/Game/SciFiCharacter/Meshes/UE4_Mannequin_Skeleton_AnimBlueprint1]
+[2025.09.24-03.47.43:453][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SciFiCharacter/Meshes/UE4_Mannequin_Skeleton_AnimBlueprint1_Auto2
+[2025.09.24-03.47.43:453][876]LogSavePackage: Moving '../../../../../../Users/user/Documents/GitHub/ADR_Seoul/ADR/Saved/UE4_Mannequin_Skeleton_AnimBluep7260EA7C4738850CAE130888B5083965.tmp' to '../../../../../../Users/user/Documents/GitHub/ADR_Seoul/ADR/Saved/Autosaves/Game/SciFiCharacter/Meshes/UE4_Mannequin_Skeleton_AnimBlueprint1_Auto2.uasset'
+[2025.09.24-03.47.43:453][876]LogFileHelpers: Auto-saving content packages took 0.092
+[2025.09.24-03.48.56:859][ 68]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/SciFiCharacter/Animations/Jog_Fwd_Rifle.Jog_Fwd_Rifle
+[2025.09.24-03.48.56:882][ 68]LogAnimationCompression: Display: Storing compressed animation data for /Game/SciFiCharacter/Animations/Jog_Fwd_Rifle.Jog_Fwd_Rifle, at AnimationSequence/7df7d3ffdfa9e04c2dcc00ab8252df997bec47b9
+[2025.09.24-03.51.06:715][150]LogSlate: Took 0.002183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2025.09.24-03.51.44:219][355]BlueprintLog: New page: UE4_Mannequin_Skeleton_AnimBlueprint 컴파일
+[2025.09.24-03.51.44:221][355]LogBlueprint: Warning: [AssetLog] C:\Users\user\Documents\GitHub\ADR_Seoul\ADR\Content\SciFiCharacter\Meshes\UE4_Mannequin_Skeleton_AnimBlueprint.uasset: [Compiler] Idle_Rifle_Hip -> Jog_Fwd_Rifle  will never be taken, please connect something to  Can Enter Transition
+[2025.09.24-03.51.44:251][355]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.09.24-03.51.54:390][202]BlueprintLog: New page: UE4_Mannequin_Skeleton_AnimBlueprint 컴파일
+[2025.09.24-03.51.54:393][202]LogBlueprint: Warning: [AssetLog] C:\Users\user\Documents\GitHub\ADR_Seoul\ADR\Content\SciFiCharacter\Meshes\UE4_Mannequin_Skeleton_AnimBlueprint.uasset: [Compiler] Idle_Rifle_Hip -> Jog_Fwd_Rifle  will never be taken, please connect something to  Can Enter Transition
+[2025.09.24-03.51.54:421][202]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.09.24-03.52.28:159][326]LogViewport: Scene viewport resized to 636x587, mode Windowed.
+[2025.09.24-03.57.43:704][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.09.24-03.57.43:708][808]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.021
+[2025.09.24-03.57.43:708][808]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/SciFiCharacter/Meshes/UE4_Mannequin_Skeleton_AnimBlueprint] ([2] browsable assets)...
+[2025.09.24-03.57.43:715][808]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/SciFiCharacter/Meshes/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint]
+[2025.09.24-03.57.43:715][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/SciFiCharacter/Meshes/UE4_Mannequin_Skeleton_AnimBlueprint]
+[2025.09.24-03.57.43:724][808]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SciFiCharacter/Meshes/UE4_Mannequin_Skeleton_AnimBlueprint_Auto3
+[2025.09.24-03.57.43:724][808]LogSavePackage: Moving '../../../../../../Users/user/Documents/GitHub/ADR_Seoul/ADR/Saved/UE4_Mannequin_Skeleton_AnimBluepCA581479449477D73BEA97917BCAAC30.tmp' to '../../../../../../Users/user/Documents/GitHub/ADR_Seoul/ADR/Saved/Autosaves/Game/SciFiCharacter/Meshes/UE4_Mannequin_Skeleton_AnimBlueprint_Auto3.uasset'
+[2025.09.24-03.57.43:724][808]LogFileHelpers: Auto-saving content packages took 0.016
+[2025.09.24-04.20.30:332][666]LogDerivedDataCache: C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.098 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2248 files in 3374 folders with total size 400 MiB.
+[2025.09.24-04.22.50:987][ 88]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2025.09.24-04.22.50:987][ 88]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2025.09.24-04.26.28:980][869]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2025.09.24-04.27.40:905][ 58]LogSlate: Window 'UE4_Mannequin_Skeleton_AnimBlueprint' being destroyed
+[2025.09.24-04.27.40:909][ 58]LogSlate: Window 'UE4_Mannequin_Skeleton_AnimBlueprint' being destroyed
+[2025.09.24-04.27.40:915][ 58]LogWorld: UWorld::CleanupWorld for World_63, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-04.27.40:915][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-04.27.40:923][ 58]LogWorld: UWorld::CleanupWorld for World_64, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-04.27.40:923][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-04.27.40:948][ 58]LogWorld: UWorld::CleanupWorld for World_65, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-04.27.40:948][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-04.28.01:742][202]Cmd: SELECT NONE
+[2025.09.24-04.28.02:282][266]Cmd: SELECT NONE
+[2025.09.24-04.28.10:385][235]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.09.24-04.28.10:386][235]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-04.28.10:386][235]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
