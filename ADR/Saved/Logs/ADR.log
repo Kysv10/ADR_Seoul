@@ -3074,3 +3074,371 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.09.24-00.07.36:695][ 45]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 227 ms)
 [2025.09.24-00.07.36:699][ 45]AssetCheck: New page: 에셋 저장:  BP_ThirdPersonCharacter
 [2025.09.24-00.07.36:699][ 45]LogContentValidation: Display: /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter 유효성 검사 중
+[2025.09.24-00.08.59:781][716]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/ThirdPerson/Input/IMC_Default.IMC_Default
+[2025.09.24-00.09.23:727][329]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2025.09.24-00.09.23:732][329]LogContentBundle: [ThirdPersonMap(독립형)] Generating Streaming for 0 Content Bundles.
+[2025.09.24-00.09.23:733][329]LogWorldPartition: Display: GenerateStreaming started...
+[2025.09.24-00.09.23:733][329]LogWorldPartition: Display: GetPartitionedActors started...
+[2025.09.24-00.09.23:733][329]LogWorldPartition: Display: GetPartitionedActors took 5 us (total: 101 us)
+[2025.09.24-00.09.23:733][329]LogWorldPartition: Display: GenerateStreaming took 83 us (total: 1 ms)
+[2025.09.24-00.09.23:733][329]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.24-00.09.23:733][329]PIE: New page: PIE 세션: ThirdPersonMap (2025. 9. 24. 오후 6:09:23)
+[2025.09.24-00.09.23:735][329]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.09.24-00.09.23:737][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002335s)
+[2025.09.24-00.09.23:737][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002358s)
+[2025.09.24-00.09.23:737][329]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-00.09.23:737][329]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.09.24-00.09.23:737][329]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2025.09.24-00.09.23:737][329]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.09.24-00.09.23:737][329]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.24-00.09.23:737][329]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2025.09.24-00.09.23:738][329]LogContentBundle: [ThirdPersonMap(독립형)] Creating new contrainer.
+[2025.09.24-00.09.23:738][329]LogWorldPartition: Display: WorldPartition initialize took 498 us (total: 321 ms)
+[2025.09.24-00.09.23:738][329]LogPlayLevel: PIE: World Init took: (0.001222s)
+[2025.09.24-00.09.23:749][329]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.09.24-00.09.23:749][329]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2025.09.24-00.09.23:749][329]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.24-00.09.23:750][329]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.24-00.09.23:750][329]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.24-00.09.23:750][329]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.24-00.09.23:750][329]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.24-00.09.23:750][329]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2025.09.24-00.09.23:750][329]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.24-00.09.23:750][329]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.24-00.09.23:750][329]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.24-00.09.23:750][329]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.24-00.09.23:750][329]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.24-00.09.23:751][329]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.24-00.09.23:825][329]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Razer BlackShark V2 HS 2.4)
+[2025.09.24-00.09.23:825][329]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.24-00.09.23:825][329]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.24-00.09.23:825][329]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.24-00.09.23:826][329]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2025.09.24-00.09.23:826][329]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2025.09.24-00.09.23:827][329]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2025.09.24-00.09.23:827][329]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2025.09.24-00.09.23:828][329]LogInit: FAudioDevice initialized with ID 20.
+[2025.09.24-00.09.23:828][329]LogAudio: Display: Audio Device (ID: 20) registered with world 'ThirdPersonMap'.
+[2025.09.24-00.09.23:828][329]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2025.09.24-00.09.23:829][329]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.09.24-00.09.23:830][329]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.09.24-09.09.23
+[2025.09.24-00.09.23:830][329]LogWorld: Bringing up level for play took: 0.000811
+[2025.09.24-00.09.23:832][329]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2025.09.24-00.09.23:835][329]PIE: 서버가 로그인했습니다.
+[2025.09.24-00.09.23:835][329]PIE: 에디터에서 플레이 총 시작 시간 0.103초입니다.
+[2025.09.24-00.09.23:854][329]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.23:854][329]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.23:854][329]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.23:854][329]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.23:856][329]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.23:856][329]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.23:856][329]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.23:856][329]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.23:856][329]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.23:856][329]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.23:857][329]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.23:857][329]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.23:866][330]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.23:866][330]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.23:867][330]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.23:867][330]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.23:867][330]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.23:867][330]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.23:867][330]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.23:867][330]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.23:868][330]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.23:868][330]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.23:868][330]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.23:868][330]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.24:851][445]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.27:075][712]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.27:275][736]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.27:442][756]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.27:633][779]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.27:817][801]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.28:034][827]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.29:584][ 13]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.29:792][ 38]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.29:975][ 60]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.30:193][ 86]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.30:410][112]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.30:634][139]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.30:842][164]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.31:061][190]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.31:410][232]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.31:600][255]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.31:825][282]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.32:034][307]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.32:260][334]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.32:459][358]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.32:642][380]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.32:860][406]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.33:067][431]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.33:310][460]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.33:517][485]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.33:709][508]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.33:901][531]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.36:258][814]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.36:784][877]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.37:009][904]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.37:202][927]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.41:739][388]LogViewport: Scene viewport resized to 1557x973, mode Windowed.
+[2025.09.24-00.09.46:484][936]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.24-00.09.46:484][936]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.09.24-00.09.46:484][936]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-00.09.46:484][936]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-00.09.46:484][936]LogContentBundle: [ThirdPersonMap(독립형)] Deleting container.
+[2025.09.24-00.09.46:486][936]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.24-00.09.46:489][936]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-00.09.46:500][936]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.24-00.09.46:500][936]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2025.09.24-00.09.46:500][936]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2025.09.24-00.09.46:502][936]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2025.09.24-00.09.46:505][936]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.24-00.09.46:507][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.09.24-00.09.46:519][936]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.46:540][937]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.46:569][939]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2025.09.24-00.09.47:403][ 39]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2025.09.24-00.09.47:410][ 39]LogContentBundle: [ThirdPersonMap(독립형)] Generating Streaming for 0 Content Bundles.
+[2025.09.24-00.09.47:411][ 39]LogWorldPartition: Display: GenerateStreaming started...
+[2025.09.24-00.09.47:411][ 39]LogWorldPartition: Display: GetPartitionedActors started...
+[2025.09.24-00.09.47:411][ 39]LogWorldPartition: Display: GetPartitionedActors took 4 us (total: 106 us)
+[2025.09.24-00.09.47:411][ 39]LogWorldPartition: Display: GenerateStreaming took 82 us (total: 1 ms)
+[2025.09.24-00.09.47:411][ 39]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2025.09.24-00.09.47:412][ 39]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2025.09.24-00.09.47:477][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.09.24-00.09.47:478][ 39]LogPlayLevel: PlayLevel: Blueprint regeneration took 66 ms (1 blueprints)
+[2025.09.24-00.09.47:478][ 39]PIE: New page: PIE 세션: ThirdPersonMap (2025. 9. 24. 오후 6:09:47)
+[2025.09.24-00.09.47:478][ 39]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.09.24-00.09.47:480][ 39]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002077s)
+[2025.09.24-00.09.47:480][ 39]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002099s)
+[2025.09.24-00.09.47:480][ 39]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-00.09.47:480][ 39]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.09.24-00.09.47:480][ 39]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2025.09.24-00.09.47:480][ 39]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.09.24-00.09.47:480][ 39]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.24-00.09.47:480][ 39]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2025.09.24-00.09.47:482][ 39]LogContentBundle: [ThirdPersonMap(독립형)] Creating new contrainer.
+[2025.09.24-00.09.47:482][ 39]LogWorldPartition: Display: WorldPartition initialize took 499 us (total: 322 ms)
+[2025.09.24-00.09.47:482][ 39]LogPlayLevel: PIE: World Init took: (0.001158s)
+[2025.09.24-00.09.47:491][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.09.24-00.09.47:491][ 39]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2025.09.24-00.09.47:491][ 39]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.24-00.09.47:491][ 39]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.24-00.09.47:491][ 39]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.24-00.09.47:491][ 39]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.24-00.09.47:491][ 39]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.24-00.09.47:491][ 39]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2025.09.24-00.09.47:491][ 39]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.24-00.09.47:491][ 39]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.24-00.09.47:491][ 39]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.24-00.09.47:491][ 39]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.24-00.09.47:491][ 39]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.24-00.09.47:494][ 39]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.24-00.09.47:562][ 39]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Razer BlackShark V2 HS 2.4)
+[2025.09.24-00.09.47:562][ 39]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.24-00.09.47:563][ 39]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.24-00.09.47:563][ 39]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.24-00.09.47:563][ 39]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2025.09.24-00.09.47:563][ 39]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2025.09.24-00.09.47:565][ 39]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2025.09.24-00.09.47:565][ 39]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2025.09.24-00.09.47:565][ 39]LogInit: FAudioDevice initialized with ID 21.
+[2025.09.24-00.09.47:565][ 39]LogAudio: Display: Audio Device (ID: 21) registered with world 'ThirdPersonMap'.
+[2025.09.24-00.09.47:565][ 39]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2025.09.24-00.09.47:571][ 39]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.09.24-00.09.47:572][ 39]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.09.24-09.09.47
+[2025.09.24-00.09.47:572][ 39]LogWorld: Bringing up level for play took: 0.000891
+[2025.09.24-00.09.47:574][ 39]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2025.09.24-00.09.47:576][ 39]PIE: 서버가 로그인했습니다.
+[2025.09.24-00.09.47:576][ 39]PIE: 에디터에서 플레이 총 시작 시간 0.166초입니다.
+[2025.09.24-00.09.47:639][ 39]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.47:639][ 39]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.47:640][ 39]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.47:640][ 39]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.47:640][ 39]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.47:640][ 39]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.47:640][ 39]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.47:641][ 39]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.47:641][ 39]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.47:641][ 39]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.47:641][ 39]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.47:641][ 39]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.47:699][ 40]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.47:699][ 40]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.47:699][ 40]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.47:700][ 40]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.47:700][ 40]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.47:700][ 40]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.47:700][ 40]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.47:700][ 40]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.47:700][ 40]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.47:702][ 40]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.47:702][ 40]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.47:702][ 40]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.09.48:880][175]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.49:029][193]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.49:230][217]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.49:422][240]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.49:604][262]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.49:964][305]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.50:179][331]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.50:414][359]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.52:738][638]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.52:938][662]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.53:129][685]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.53:346][711]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.53:546][735]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.53:754][760]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.53:989][788]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.54:204][814]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.54:788][884]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.54:988][908]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.55:180][931]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.55:380][955]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.55:638][986]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.56:263][ 61]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.56:488][ 88]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.56:688][112]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.56:879][135]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.57:096][161]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.57:305][186]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.57:504][210]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.57:704][234]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.57:921][260]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.58:147][287]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.58:388][316]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.58:594][340]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.58:870][373]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.59:086][399]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.59:269][421]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.59:485][447]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.59:711][474]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.09.59:928][500]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.10.00:160][528]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.10.01:902][737]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.10.02:203][773]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.10.02:427][800]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.10.02:627][824]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.10.02:819][847]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.10.03:010][870]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.10.03:202][893]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.10.07:561][416]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 발사
+[2025.09.24-00.10.14:344][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.24-00.10.14:344][175]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.09.24-00.10.14:344][175]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-00.10.14:344][175]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-00.10.14:344][175]LogContentBundle: [ThirdPersonMap(독립형)] Deleting container.
+[2025.09.24-00.10.14:345][175]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.24-00.10.14:349][175]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-00.10.14:359][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.24-00.10.14:360][175]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2025.09.24-00.10.14:360][175]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2025.09.24-00.10.14:361][175]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2025.09.24-00.10.14:366][175]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.09.24-00.10.14:378][175]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.10.14:401][176]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.10.14:430][178]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2025.09.24-00.15.56:031][471]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.09.24-00.15.56:036][471]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.017
+[2025.09.24-00.15.56:036][471]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.09.24-00.15.56:052][471]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.09.24-00.15.56:052][471]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.09.24-00.15.56:063][471]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto4
+[2025.09.24-00.15.56:063][471]LogSavePackage: Moving 'C:/Users/c/Documents/GitHub/ADR_Seoul/ADR/Saved/BP_ThirdPersonCharacter_Auto404BDBA11415F5C5DDA3C9BA4A022D7F6.tmp' to 'C:/Users/c/Documents/GitHub/ADR_Seoul/ADR/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto4.uasset'
+[2025.09.24-00.15.56:065][471]LogFileHelpers: Auto-saving content packages took 0.029
+[2025.09.24-00.18.31:885][150]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2025.09.24-00.18.31:901][150]LogContentBundle: [ThirdPersonMap(독립형)] Generating Streaming for 0 Content Bundles.
+[2025.09.24-00.18.31:902][150]LogWorldPartition: Display: GenerateStreaming started...
+[2025.09.24-00.18.31:902][150]LogWorldPartition: Display: GetPartitionedActors started...
+[2025.09.24-00.18.31:902][150]LogWorldPartition: Display: GetPartitionedActors took 6 us (total: 112 us)
+[2025.09.24-00.18.31:902][150]LogWorldPartition: Display: GenerateStreaming took 90 us (total: 1 ms)
+[2025.09.24-00.18.31:902][150]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2025.09.24-00.18.31:907][150]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2025.09.24-00.18.31:972][150]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.09.24-00.18.31:974][150]LogPlayLevel: PlayLevel: Blueprint regeneration took 71 ms (1 blueprints)
+[2025.09.24-00.18.31:974][150]PIE: New page: PIE 세션: ThirdPersonMap (2025. 9. 24. 오후 6:18:31)
+[2025.09.24-00.18.31:975][150]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.09.24-00.18.31:977][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002182s)
+[2025.09.24-00.18.31:977][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002210s)
+[2025.09.24-00.18.31:977][150]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.09.24-00.18.31:977][150]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.09.24-00.18.31:977][150]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2025.09.24-00.18.31:977][150]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.09.24-00.18.31:977][150]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.24-00.18.31:977][150]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2025.09.24-00.18.31:978][150]LogContentBundle: [ThirdPersonMap(독립형)] Creating new contrainer.
+[2025.09.24-00.18.31:978][150]LogWorldPartition: Display: WorldPartition initialize took 523 us (total: 322 ms)
+[2025.09.24-00.18.31:978][150]LogPlayLevel: PIE: World Init took: (0.001273s)
+[2025.09.24-00.18.31:990][150]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.09.24-00.18.31:990][150]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2025.09.24-00.18.31:990][150]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.24-00.18.31:990][150]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.24-00.18.31:990][150]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.24-00.18.31:990][150]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.24-00.18.31:990][150]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.24-00.18.31:990][150]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2025.09.24-00.18.31:990][150]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.24-00.18.31:990][150]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.24-00.18.31:990][150]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.24-00.18.31:990][150]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.24-00.18.31:991][150]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.24-00.18.31:993][150]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.24-00.18.32:067][150]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Razer BlackShark V2 HS 2.4)
+[2025.09.24-00.18.32:067][150]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.24-00.18.32:067][150]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.24-00.18.32:067][150]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.24-00.18.32:067][150]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2025.09.24-00.18.32:067][150]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2025.09.24-00.18.32:069][150]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2025.09.24-00.18.32:069][150]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2025.09.24-00.18.32:069][150]LogInit: FAudioDevice initialized with ID 22.
+[2025.09.24-00.18.32:069][150]LogAudio: Display: Audio Device (ID: 22) registered with world 'ThirdPersonMap'.
+[2025.09.24-00.18.32:069][150]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2025.09.24-00.18.32:076][150]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.09.24-00.18.32:076][150]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.09.24-09.18.32
+[2025.09.24-00.18.32:077][150]LogWorld: Bringing up level for play took: 0.000970
+[2025.09.24-00.18.32:078][150]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2025.09.24-00.18.32:081][150]PIE: 서버가 로그인했습니다.
+[2025.09.24-00.18.32:081][150]PIE: 에디터에서 플레이 총 시작 시간 0.18초입니다.
+[2025.09.24-00.18.32:099][150]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.18.32:099][150]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.18.32:099][150]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.18.32:100][150]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.18.32:100][150]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.18.32:100][150]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.18.32:100][150]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.18.32:100][150]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.18.32:100][150]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.18.32:101][150]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.18.32:101][150]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.18.32:101][150]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.18.32:136][151]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.18.32:136][151]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.18.32:136][151]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.18.32:136][151]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.18.32:136][151]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.18.32:137][151]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.18.32:137][151]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.18.32:137][151]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.18.32:137][151]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.18.32:137][151]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.18.32:137][151]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.18.32:138][151]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.09.24-00.18.33:330][290]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Hello
+[2025.09.24-00.18.33:963][366]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Hello
+[2025.09.24-00.18.34:164][390]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Hello
+[2025.09.24-00.18.34:372][415]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Hello
+[2025.09.24-00.18.34:572][439]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Hello
+[2025.09.24-00.18.34:788][465]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Hello
+[2025.09.24-00.18.35:022][493]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Hello
+[2025.09.24-00.18.35:246][520]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Hello
+[2025.09.24-00.18.35:930][602]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Hello
+[2025.09.24-00.18.36:147][628]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Hello
+[2025.09.24-00.18.36:362][654]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Hello
+[2025.09.24-00.18.36:588][681]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Hello
+[2025.09.24-00.18.36:797][706]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Hello
+[2025.09.24-00.18.36:997][730]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Hello
+[2025.09.24-00.18.37:204][755]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Hello
+[2025.09.24-00.18.37:413][780]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Hello
