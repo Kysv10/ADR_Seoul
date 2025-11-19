@@ -1,0 +1,30 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/c/Documents/GitHub/ADR_Seoul/MyProject2/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset",
+				"C:/Users/c/Documents/GitHub/ADR_Seoul/MyProject2/Content/FP_AKS74U_Animation/BP/BP_FirstPersonGameMode.uasset",
+				"C:/Users/c/Documents/GitHub/ADR_Seoul/MyProject2/Content/FP_AKS74U_Animation/BP/WBP_PlayerHUD.uasset",
+				"C:/Users/c/Documents/GitHub/ADR_Seoul/MyProject2/Content/FP_AKS74U_Animation/BP/BP_Player.uasset",
+				"C:/Users/c/Documents/GitHub/ADR_Seoul/MyProject2/Content/FirstPerson/BP_Weapon.uasset",
+				"C:/Users/c/Documents/GitHub/ADR_Seoul/MyProject2/Content/FP_AKS74U_Animation/BP/BP_Weapon.uasset",
+				"C:/Users/c/Documents/GitHub/ADR_Seoul/MyProject2/Content/FirstPerson/Blueprints/BP_Weapon.uasset",
+				"C:/Users/c/Documents/GitHub/ADR_Seoul/MyProject2/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset",
+				"C:/Users/c/Documents/GitHub/ADR_Seoul/MyProject2/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset",
+				"C:/Users/c/Documents/GitHub/ADR_Seoul/MyProject2/Content/FirstPerson/Blueprints/BP_FirstPersonProjectile.uasset",
+				"C:/Users/c/Documents/GitHub/ADR_Seoul/MyProject2/Content/FirstPerson/Input/MobileControls.uasset",
+				"C:/Users/c/Documents/GitHub/ADR_Seoul/MyProject2/Content/FirstPerson/Input/IMC_Default.uasset",
+				"C:/Users/c/Documents/GitHub/ADR_Seoul/MyProject2/Content/FirstPerson/Input/Actions/IA_Jump.uasset",
+				"C:/Users/c/Documents/GitHub/ADR_Seoul/MyProject2/Content/FirstPerson/Input/Actions/IA_Look.uasset",
+				"C:/Users/c/Documents/GitHub/ADR_Seoul/MyProject2/Content/FirstPerson/Input/Actions/IA_Move.uasset",
+				"C:/Users/c/Documents/GitHub/ADR_Seoul/MyProject2/Content/FirstPerson/Input/Actions/IA_Shoot.uasset",
+				"C:/Users/c/Documents/GitHub/ADR_Seoul/MyProject2/Content/FirstPerson/Input/Actions/IA_Fire.uasset",
+				"C:/Users/c/Documents/GitHub/ADR_Seoul/MyProject2/Content/FirstPerson/Input/Actions/IA_Reload.uasset",
+				"C:/Users/c/Documents/GitHub/ADR_Seoul/MyProject2/Content/FirstPerson/Input/Actions/IA_Sprint.uasset"
+			]
+		}
+	]
+}
